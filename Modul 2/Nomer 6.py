@@ -33,7 +33,7 @@ class Mahasiswa(Manusia):
         return self.NIM
     def ambilUangSaku(self):
         return self.uangSaku
-    def makan(self, e):
+    def makan(self, s):
         """Metode ini menutupi metode 'makan'-nya class manusia.
            Mahasiswa kalau makan sambil belajar."""
         print("Saya baru saja makan", s, "Sambil belajar.")
