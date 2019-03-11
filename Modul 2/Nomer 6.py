@@ -60,8 +60,8 @@ class SiswaSMA(Manusia):
         self.alamat = alamat
     def __str__(self):
         a = 'Nama      : ' + str(self.nama) \
-            'NISN      : ' + str(self.nisn) \
-            'Alamat    : ' + str(self.alamat) \
-            'Uang Saku : ' + str(self.uangSaku)
+            + 'NISN      : ' + str(self.nisn) \
+            + 'Alamat    : ' + str(self.alamat) \
+            + 'Uang Saku : ' + str(self.uangSaku)
         return a
     
