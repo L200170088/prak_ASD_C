@@ -1,0 +1,5 @@
+a = input("Masukkan Nama Mahasiswa:")
+b = input("Masukkan NIM Mahasiswa:")
+c = input("Masukkan tempat tinggal Mahasiswa:")
+d = input("Masukkan Uang Saku Mahasiswa:")
+e = print(a,b,c,d)
